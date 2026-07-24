@@ -2,7 +2,7 @@ project_name: sumcheck
 
 builds:
   - env: [CGO_ENABLED=0]
-    goos: [linux, windows, darwin, macos]
+    goos: [linux, windows, darwin]
     goarch: [amd64, arm64]
 
 archives:
